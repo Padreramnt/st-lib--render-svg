@@ -3,13 +3,22 @@
 		"rimraf": "^3.0.2",
 		"tslib": "^1.10.0"
 	},
-	"description": "vdom svg bindings library",
+	"description": "@st-lib/render SVG element shortcuts.",
 	"devDependencies": {
 		"typescript": "^3.9.2"
 	},
 	"files": [
 		"lib"
 	],
+	"keywords": [
+		"st-lib",
+		"render",
+		"svg"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Padreramnt/st-lib--render-svg"
+	},
 	"license": "MIT",
 	"main": "lib/index.js",
 	"module": "lib/index.js",
@@ -24,8 +33,8 @@
 		"test": "tsc -p ./tsconfig.json --noEmit"
 	},
 	"types": "lib/index.d.ts",
-	"version": "1.0.2",
+	"version": "1.0.0",
 	"peerDependencies": {
-		"@st-lib/render": "^1.0.6"
+		"@st-lib/render": "^1.0.0"
 	}
 }
